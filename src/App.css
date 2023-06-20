@@ -1,38 +1,527 @@
-.App {
+.bg-header {
+  background-color: #1EAAF1;
+}
+
+.main-row {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navbar-brand {
+  font-weight: 900;
+  font-size: 24px;
+  padding: 0;
+  line-height: 1;
+}
+
+.nav-item a {
+  font-size: 15px;
+  padding-top: 2.3rem;
+  padding-bottom: 2.3rem;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: 400;
+  color: #000000;
+  opacity: 1 !important;
+}
+
+.bg-header .address {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 27px;
+  font-style: normal;
+}
+
+.carousel-images {
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 600px;
+  position: relative;
+  z-index: 0;
+  opacity: .9;
+}
+
+.home-text {
+  position: absolute;
+  z-index: 1;
+  top: 180px;
+  left: 650px;
+}
+
+.home-button {
+  position: absolute;
+  z-index: 1;
+  top: 250px;
+  left: 650px;
+}
+
+.home-text p {
+  font-weight: 900;
+  font-size: 24px;
+  padding: 0;
+  line-height: 1;
+  color: #fff;
+}
+
+.home-button button {
+  background: #fda638;
+  border: 1px solid #fda638;
+  color: #fff;
+  border-radius: 40px;
+  padding: 10px 15px;
+}
+
+.card-group .card {
+  padding: 120px 10px 50px 10px;
+  border-radius: 0 !important;
+}
+
+.card-group .card .card-title {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 1rem !important;
+  color: white;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.card-group .card .card-text {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 1rem !important;
+  color: white;
+  text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.card .teachers-image {
+  line-height: 1.3;
+  position: relative;
+  width: 120px;
+  height: 120px;
+  background: #fff;
+  margin: 0 auto;
+  /* margin-top: -0px; */
+  border-radius: 50%;
+  position: absolute;
+  top: -60px;
+  left: 120px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.card .teachers-image img {
+  width: 50%;
+  height: 100%;
+  margin-left: 30px;
+  /* padding: 10px; */
+  border-radius: 50%;
+  color: #1eaaf1;
+  fill: #1EAAF1;
+}
+
+#home-left-div {
+  background: #fafafa !important
+}
+
+
+/* blog */
+.blog-text {
+  display: flex;
+  justify-content: center;
+}
+
+.blog-text .span1 {
+  color: #5d50c6;
+  font-size: 44px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.blog-text .span2 {
+  color: #fda638;
+  font-size: 44px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.blog-paragraph {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.blog-paragraph p {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 27px;
+  font-style: normal;
+}
+
+.card a {
+  background: #fda638;
+  border: 1px solid #fda638;
+  color: #fff;
+  border-radius: 40px;
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.card h5 {
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.card p {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 27px;
+  font-style: normal;
+}
+
+.card h3 {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 1rem !important;
+  color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  margin-top: 10px;
+}
+
+#button1, #button2, #button3, #button4 {
+  display: flex;
+  justify-content: center;
+}
+
+#button1 {
+  background: #1eaaf1;
+  border: 1px solid #1eaaf1;
+  color: #fff;
+}
+
+#button2 {
+  background: #fda638;
+  border: 1px solid #fda638;
+  color: #fff;
+}
+
+#button3 {
+  background: #8cc152;
+  border: 1px solid #8cc152;
+  color: #fff;
+
+}
+
+#button4 {
+  background: #f1453d;
+  border: 1px solid #f1453d;
+  color: #fff;
+}
+
+.plan-price .price-span {
+  font-weight: 900;
+  font-size: 28px;
+  color: #1eaaf1;
+  transition: all 0.3s ease;
+}
+
+.plan-price .price-span1 {
+  font-size: 12px;
+  color: #343a40 !important;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.course-image {
+  width: 180px;
+  height: 200px;
+}
+
+
+/* footer */
+.bg-footer {
+  background-color: #343a40;
+  width: 100%;
+  /* height: 400px; */
+}
+
+.bg-footer h2 {
+  color: #fff;
+  margin-bottom: 40px;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.subscribe-input {
+  margin-bottom: 30px;
+}
+
+.subscribe-input input {
+  border-radius: 2px;
+  width: 100%;
+  height: 52px;
+  background: rgba(255, 255, 255, 0.1) !important;
+  border: none;
+  color: rgba(255, 255, 255, 0.7) !important;
+  font-size: 16px;
+  outline: none;
+  padding: 10px;
+}
+
+.subscribe-button button {
+  color: #fff !important;
+  font-size: 16px;
+  background: #5d50c6 !important;
+  border: none !important;
+  border-radius: 2px;
+  width: 100%;
+  height: 52px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.subscribe-button {
+  margin-bottom: 30px;
+}
+
+.subscribe-button button:hover {
+  background: #1EAAF1 !important;
+  transition: all 0.3s ease;
+}
+
+.social {
+  display: flex;
+  gap: 1.5rem;
+  color: #fff;
+}
+
+.social svg {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 10px;
+  transition: all 0.3s ease;
+}
+
+.links ul {
+  padding: 0 !important;
+}
+
+.links ul li {
+  list-style: none;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+  font-style: normal;
+
+}
+
+.blogs {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 50px;
+}
+
+.blogs img {
+  display: block;
+  height: 80px;
+  width: 80px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.blog-text p {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+  font-style: normal;
+
+}
+
+.questions .question-location {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.questions .question-location p {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+  font-style: normal;
+}
+
+
+
+/* teachers */
+
+#container {
+  background-color: transparent;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  padding: 10px;
+  /* filter: drop-shadow(0 30px 10px rgba(0, 0, 0, 0.125)); */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: center;
+
 }
 
-.App-link {
-  color: #61dafb;
+#container .wrapper {
+  width: 100%;
+  height: 100%;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.banner-image {
+  background-image: url(https://preview.colorlib.com/theme/kiddos/images/teacher-1.jpg.webp);
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+  border-radius: 12px;
+}
+
+.banner-image2 {
+  background-image: url(https://preview.colorlib.com/theme/kiddos/images/teacher-2.jpg.webp);
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+  border-radius: 12px;
+}
+
+.banner-image3 {
+  background-image: url(https://preview.colorlib.com/theme/kiddos/images/teacher-3.jpg.webp);
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+  border-radius: 12px;
+}
+
+.banner-image4 {
+  background-image: url(https://preview.colorlib.com/theme/kiddos/images/teacher-4.jpg.webp);
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+  border-radius: 12px;
+}
+
+#container h1 {
+  font-family: 'Righteous', sans-serif;
+  color: black;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 10px;
+}
+
+#container p {
+  color: black;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  font-size: 0.8rem;
+  line-height: 150%;
+  letter-spacing: 2px;
+}
+
+#container .button-wrapper {
+  margin-top: 18px;
+}
+
+#container .btn {
+  border: none;
+  padding: 12px 24px;
+  border-radius: 24px;
+  font-size: 12px;
+  font-size: 0.8rem;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+.btn+.btn {
+  margin-left: 10px;
+}
+
+.outline {
+  background: transparent;
+  color: rgba(0, 212, 255, 0.9);
+  border: 1px solid rgba(0, 212, 255, 0.6);
+  transition: all .3s ease;
+
+}
+
+.outline:hover {
+  transform: scale(1.125);
+  color: rgba(255, 255, 255, 0.9);
+  border-color: rgba(255, 255, 255, 0.9);
+  transition: all .3s ease;
+}
+
+.fill {
+  background: rgba(0, 212, 255, 0.9);
+  color: rgba(255, 255, 255, 0.95);
+  filter: drop-shadow(0);
+  font-weight: bold;
+  transition: all .3s ease;
+}
+
+.fill:hover {
+  transform: scale(1.125);
+  border-color: rgba(255, 255, 255, 0.9);
+  filter: drop-shadow(0 10px 5px rgba(0, 0, 0, 0.125));
+  transition: all .3s ease;
+}
+
+
+/* responsive */
+
+@media screen and (max-width: 700px) {
+  .course-image {
+    width: 100%;
+    height: 200px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .bg-header {
+    display: none;
   }
+
+  .carousel-images {
+    width: 100%;
+    height: 100%;
+  }
+
+  .nav-item a {
+    padding: 10px;
+  }
+
+  .blog-text .span1 {
+    font-size: 32px;
+
+  }
+
+  .blog-text .span2 {
+    font-size: 32px;
+
+  }
+
+  .blog-paragraph p {
+    font-size: 16px;
+    padding: 10px;
+  }
+
 }
